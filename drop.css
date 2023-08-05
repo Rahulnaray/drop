@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./image/jack1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#con{
+    background-color: rgba(210, 105, 30, 0);
+}
+#nav{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+#nav li a{
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    color: deeppink;
+
+}
+
+#menu{
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+
+#nav li a:hover{
+    color: black;
+    background-color: aqua;
+
+}
